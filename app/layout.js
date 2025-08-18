@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "LinkPage",
-  description: "A platform to grow your audience ",
+  description: "A platform to grow your audience "
 };
 
 export default function RootLayout({ children }) {
