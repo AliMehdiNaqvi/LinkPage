@@ -21,7 +21,7 @@ export default function TrustedByCreators() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        {["creator1.jfif", "creator2.jpg", "creator3.jpg", "creator4.jpg","creator5.jpg","creator6.jfif","creator7.jpg","creator8.webp"].map(
+        {[ "creator2.jpg", "creator3.jpg", "creator4.jpg","creator5.jpg","creator7.jpg","creator8.webp"].map(
           (img, i) => (
             <Image
               key={i}
